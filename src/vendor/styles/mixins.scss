@@ -1,4 +1,5 @@
 @mixin text($font-style, $font-weight, $font-size, $line-height, $color) {
+    font-family: "Montserrat", "Courier New", Courier, monospace;
     font-style: $font-style;
     font-weight: $font-weight;
     font-size: $font-size;

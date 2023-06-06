@@ -1,0 +1,22 @@
+.header {
+    width: 100%;
+    background-color: $color-primary;
+    padding: 16px 32px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+    &__name-surname {
+        @include text(normal, 700, 20px, 24px, $color-light);
+    }
+
+    &__account-wrapper {
+        margin-left: auto;
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        text-decoration: none;
+    }
+}
