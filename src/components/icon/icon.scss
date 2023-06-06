@@ -1,7 +1,58 @@
 .icon {
+    display: block;
     &_type_header-account {
         width: 48px;
         height: 48px;
         background-image: url(../../vendor/svg/account.svg);
+    }
+
+    &__menu {
+        width: 32px;
+        height: 32px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    &_type_profile {
+        background-image: url(../../vendor/svg/profile.svg);
+    }
+
+    &_type_calendar {
+        background-image: url(../../vendor/svg/calendar.svg);
+    }
+    &_type_exit {
+        background-image: url(../../vendor/svg/exit.svg);
+    }
+    &_type_finances {
+        background-image: url(../../vendor/svg/finances.svg);
+    }
+    &_type_maps {
+        background-image: url(../../vendor/svg/maps.svg);
+    }
+    &_type_settings {
+        background-image: url(../../vendor/svg/settings.svg);
+    }
+    &_type_tables {
+        background-image: url(../../vendor/svg/tables.svg);
+    }
+    &_type_widget {
+        background-image: url(../../vendor/svg/widget.svg);
+    }
+    &_type_main {
+        background-image: url(../../vendor/svg/main.svg);
+    }
+    &_type_search {
+        background-image: url(../../vendor/svg/search.svg);
+    }
+    &_type_chevron {
+        margin: 0 20px 0 auto;
+        width: 15px;
+        height: 15px;
+        background-image: url(../../vendor/svg/chevron.svg);
+        rotate: 180deg;
+    }
+    &_type_opened {
+        rotate: 0deg;
     }
 }

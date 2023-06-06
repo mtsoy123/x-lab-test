@@ -1,0 +1,50 @@
+.menu-item {
+    @include text(normal, 600, 20px, 24px, $color-dark);
+    text-decoration: none;
+    padding: 3px 0 3px 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    overflow: hidden;
+
+    &__text {
+        margin: 0;
+    }
+
+    &__children {
+        padding-left: 48px;
+        display: none;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__children_type_opened {
+        display: flex;
+    }
+    &_type_active:after {
+        content: "";
+        width: 6px;
+        height: 100%;
+        border-radius: 50px;
+        background-color: $color-primary;
+        position: absolute;
+        top: 0;
+        right: -3px;
+    }
+
+    &_type_expanded {
+        padding-left: 80px;
+    }
+
+    &:hover:after {
+        content: "";
+        width: 6px;
+        height: 100%;
+        border-radius: 50px;
+        background-color: $color-primary;
+        position: absolute;
+        top: 0;
+        right: -3px;
+    }
+}

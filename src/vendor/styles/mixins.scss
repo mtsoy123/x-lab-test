@@ -6,3 +6,8 @@
     line-height: $line-height;
     color: $color;
 }
+
+@mixin divider-shadow($divider-background, $divider-shadow) {
+    background: $divider-background;
+    box-shadow: $divider-shadow;
+}

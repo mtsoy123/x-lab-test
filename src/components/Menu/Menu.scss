@@ -1,0 +1,20 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    width: 300px;
+    height: 100vh;
+    @include divider-shadow($divider-background, $divider-shadow);
+
+    &__header {
+        @include text(normal, 700, 20px, 24px, $color-dark);
+        padding: 0 0 29px 32px;
+        margin: 0;
+    }
+
+    &__items-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+    }
+}
