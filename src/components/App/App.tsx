@@ -1,10 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "../Header/Header";
 import Menu from "../Menu/Menu";
 import { Route, Routes } from "react-router-dom";
 import News from "../News/News";
 import Address from "../Address/Address";
-import { api } from "../../utils/api";
 
 type Props = {};
 function App({}: Props) {

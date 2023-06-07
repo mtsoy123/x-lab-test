@@ -1,4 +1,4 @@
-import React, { useCallback, useMemo, useState } from "react";
+import React, { useMemo, useState } from "react";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
 import { api } from "../../utils/api";

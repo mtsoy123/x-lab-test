@@ -18,7 +18,7 @@ function Input({
     const [inputError, setInputError] = useState(false);
 
     const handleChange = (value: string) => {
-        if (value.length <= 3) {
+        if (value.length <= minLength) {
             setInputError(true);
         } else {
             setInputError(false);
