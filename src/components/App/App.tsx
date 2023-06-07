@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../Header/Header";
 import Menu from "../Menu/Menu";
 import { Route, Routes } from "react-router-dom";
 import News from "../News/News";
 import Address from "../Address/Address";
+import { api } from "../../utils/api";
 
 type Props = {};
 function App({}: Props) {
+    useEffect(() => {
+        // api.getAddress("ленина").then((res) => console.log(res));
+    }, []);
+
     return (
         <div className="app">
             <Header></Header>
