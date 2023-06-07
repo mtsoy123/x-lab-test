@@ -1,0 +1,11 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: $color-primary;
+    @include text(normal, 700, 26px, 32px, $color-light);
+    padding: 19px 40px;
+    border-radius: 10px;
+    border: none;
+}

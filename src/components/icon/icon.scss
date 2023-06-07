@@ -55,4 +55,13 @@
     &_type_opened {
         rotate: 0deg;
     }
+
+    &_type_search-button {
+        background-image: url(../../vendor/svg/search-light.svg);
+        width: 32px;
+        height: 32px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
 }

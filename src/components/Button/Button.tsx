@@ -1,9 +1,14 @@
 import React from "react";
 
-type Props = {};
+type Props = { text: string };
 
-function Button({}: Props) {
-    return <div>Button</div>;
+function Button({ text }: Props) {
+    // return <button className="button">{text}</button>;
+    return (
+        <button className="button">
+            <i className="icon icon_type_search-button"></i>Поиск
+        </button>
+    );
 }
 
 export default Button;
