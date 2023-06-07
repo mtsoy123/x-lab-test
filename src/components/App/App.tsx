@@ -8,10 +8,6 @@ import { api } from "../../utils/api";
 
 type Props = {};
 function App({}: Props) {
-    useEffect(() => {
-        // api.getAddress("ленина").then((res) => console.log(res));
-    }, []);
-
     return (
         <div className="app">
             <Header></Header>

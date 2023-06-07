@@ -49,4 +49,7 @@
         list-style: none;
         margin: 0;
     }
+    &__not-found {
+        @include text(normal, 500, 20px, 24px, $color-dark);
+    }
 }
