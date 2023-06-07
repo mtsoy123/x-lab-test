@@ -1,0 +1,52 @@
+.address {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+
+    &__header {
+        @include text(normal, 700, 26px, 32px, $color-dark);
+        margin: 0 0 16px 0;
+    }
+
+    &__subheader {
+        @include text(normal, 500, 20px, 24px, $color-dark);
+        margin: 0 0 24px 0;
+    }
+
+    &__wrapper {
+        display: flex;
+        gap: 24px;
+        margin-bottom: 32px;
+    }
+
+    &__search-results {
+        margin: 0;
+        padding: 24px;
+        width: 100%;
+        box-shadow: 0px 2px 8px rgba(2, 0, 97, 0.25);
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    &__search-header {
+        @include text(normal, 700, 26px, 32px, $color-dark);
+        margin: 0;
+    }
+
+    &__search-result:before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: $color-divider;
+        margin: 16px 0;
+    }
+
+    &__search-result {
+        @include text(normal, 500, 20px, 24px, $color-dark);
+        list-style: none;
+        margin: 0;
+    }
+}

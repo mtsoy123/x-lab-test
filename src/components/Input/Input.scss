@@ -1,0 +1,7 @@
+.input {
+    border: 3px solid $color-primary;
+    width: 100%;
+    border-radius: 10px;
+    @include text(normal, 500, 20px, 24px, $color-dark);
+    padding: 24px;
+}
