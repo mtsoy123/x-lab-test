@@ -2,8 +2,8 @@ import React from "react";
 
 type Props = {};
 
-function s({}: Props) {
+function Input({}: Props) {
     return <div>s</div>;
 }
 
-export default s;
+export default Input;

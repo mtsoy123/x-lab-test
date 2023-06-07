@@ -1,0 +1,29 @@
+.news {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    overflow-y: auto;
+
+    &__header {
+        @include text(normal, 700, 26px, 32px, $color-dark);
+        margin: 0 0 16px 0;
+    }
+
+    &__subheader {
+        @include text(normal, 500, 20px, 24px, $color-black);
+        margin: 0 0 24px 0;
+    }
+
+    &__article {
+        @include text(normal, 500, 20px, 24px, $color-black);
+        margin: 0 0 24px 0;
+    }
+
+    &__link {
+        @include text(normal, 500, 20px, 24px, $color-link);
+        text-decoration: underline;
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}
