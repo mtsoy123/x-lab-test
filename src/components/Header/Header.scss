@@ -1,4 +1,7 @@
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
     width: 100%;
     background-color: $color-primary;
     padding: 16px 32px;

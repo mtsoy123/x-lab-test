@@ -22,25 +22,25 @@ const menuItems: MenuItem[] = [
     {
         id: 3,
         label: "Таблица",
-        url: "/foo-bar",
+        url: "/foo-bar1",
         icon: "tables",
     },
     {
         id: 4,
         label: "Календарь",
-        url: "/foo-bar",
+        url: "/foo-bar2",
         icon: "calendar",
     },
     {
         id: 5,
         label: "Карты",
-        url: "/foo-bar",
+        url: "/foo-bar3",
         icon: "maps",
     },
     {
         id: 6,
         label: "Виджеты",
-        url: "/foo-bar",
+        url: "/foo-bar4",
         icon: "widget",
     },
     {
@@ -52,14 +52,13 @@ const menuItems: MenuItem[] = [
             {
                 id: 8,
                 label: "Настройки профиля",
-                url: "/foo-bar",
+                url: "/foo-bar5",
                 icon: "profile",
-                // or account
             },
             {
                 id: 9,
                 label: "Управление финансами",
-                url: "/foo-bar",
+                url: "/foo-bar6",
                 icon: "finances",
             },
         ],
@@ -67,7 +66,7 @@ const menuItems: MenuItem[] = [
     {
         id: 10,
         label: "Выход",
-        url: "/foo-bar",
+        url: "/foo-bar7",
         icon: "exit",
     },
 ];
