@@ -5,22 +5,7 @@ import { api } from "../../utils/api";
 
 type Props = {};
 
-// const renderAddress = useCallback(
-//     (address: string[]) => {
-//         console.log(123);
-//         return address.map((item, id) => {
-//             return (
-//                 <li key={id} className="address__search-result">
-//                     {item}
-//                 </li>
-//             );
-//         });
-//     },
-//     [address]
-// );
-
 const renderAddress = (address: string[]) => {
-    console.log(123);
     return address.map((item, id) => {
         return (
             <li key={id} className="address__search-result">

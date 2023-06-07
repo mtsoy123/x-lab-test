@@ -1,16 +1,3 @@
-// interface Headers {
-//     "Content-Type": string;
-//     Accept: string;
-//     Authorization: string;
-// }
-
-// interface Params {
-//     headers: HeadersInit;
-//     method: string;
-//     mode: RequestMode;
-//     body: BodyInit;
-// }
-
 const headers: HeadersInit = {
     "Content-Type": "application/json",
     Accept: "application/json",
